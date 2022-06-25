@@ -1,44 +1,51 @@
-* {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+#name {
+    text-align: center;
 }
 
-header {
-    position:relative;
-    left: 0;
+body {
+    background-color:#262e28;
+    Overflow:scroll;
+}
+
+/* Background image stuff */
+body {
+    background-image: url("https://picsum.photos/2000/500");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:100vw;
+    position:fixed;
     top: 0;
-    width: 100%;
-    height: 80px;
 }
 
-header-h4 {
-    position: absolute;
-    /* left: 10%; */
-    bottom: 1rem;
-    font-size: 1.6rem;
-    color:black;
+
+/*Navigation*/
+.url {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+
 }
 
-/* Splash screen*/
-/*FIX POSITIION ASAP*/
+
+/* Slide screen*/
+
 .intro {
     position: fixed;
-    z-index: 1;
     left: 0;
     top: 0;
     width: 100%;
     height: 100vh;
-    background-color:darkgray;
-    transition: 2s;
+    background-color:#f1f1eb;
+    transition: 1s;
 }
 
+
+/* logo text position */
 .logo-header {
     position: absolute;
     top: 40%;
-    left: 40%;
-    transform: translate(-50% -50%);
-    color:white;
+    left: 45%;
+    color:#df4f59;
 }
 
 .logo {
@@ -46,17 +53,19 @@ header-h4 {
     display: inline-block;
     bottom: -20px;
     opacity: 0;
-    color:white;
+    color:#df4f59;
 }
 
+
+/* logo text timer */
 .logo.active {
     bottom: 0;
     opacity: 1;
-    transition: ease-in-out 2s;
+    transition: ease-in-out 1s;
 }
 
 logo.fade {
     bottom: 150px;
     opacity: 0;
-    transition: ease-in-out 2s;
+    transition: ease-in-out 1s;
 }

@@ -2,14 +2,10 @@ let intro = document.querySelector('.intro');
 let logo = document.querySelector('.logo-header');
 let logoSpan = document.querySelectorAll('.logo');
 
-
-
-
-
-
-
-//Testing slides
 window.addEventListener('DOMContentLoaded', ()=>{
+
+
+
 
     setTimeout(()=>{
 
@@ -21,11 +17,11 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
         setTimeout(()=>{
             logoSpan.forEach((span, index)=>{
-
+                
                 setTimeout(()=>{
                     span.classList.remove('active');
                     span.classList.add('fade');
-                }, (index+ 1) *50)
+                }, (index+ 1) * 50)
             })
         },2000);
 
@@ -35,3 +31,9 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
     })
 })
+
+
+
+
+  console.log('hello')
+console.log('red')
