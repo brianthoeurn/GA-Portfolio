@@ -1,107 +1,117 @@
-#name {
-    text-align: center;
+body {
+  background-color:#262e28;
+  margin:0;
 }
 
-body {
-    background-color:#262e28;
+#myStatement {
+font-size:23px;
+width:630px
+
+}  
+.hide {
+display:none;
+transition:ease-in 1s;
+}
+
+#myname{
+position:absolute;
+top:0%;
+width: 400px;
+font-size:50px;
+font-family: 'Oleo Script Swash Caps', cursive;
 }
 /*Pictures */
-.topImg {
-    background-image: center;
-    margin: 0px;
-    padding: 0;
+
+#topImg {
+background-size:contain;
+width:100%;
+height:400px;
+
 }
 
-.container {
-    width:100px;
-    height:200px;
-    display:flex;
+#allLogo {
+float:right;
+width: 350px;
 }
 
-/* The side navigation menu */
+/* Navigation */
 .sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    background-color: #111; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-  }
-  
-  /* The navigation menu links */
-  .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
-  
-  /* Position and style the close button (top right corner) */
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
-  
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-  #main {
-    transition: margin-left .5s;
-    padding: 20px;
-  }
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #111;
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+}
 
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #818181;
+display: block;
+transition: 0.3s;
+}
+
+.sidenav a:hover {
+color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+
+#main {
+transition: margin-left .5s;
+padding: 16px;
+}
+
+/* Input form */
+#textBox input{
+width:100px;
+clear:both;
+}
 
 /* Slide screen*/
 
 .intro {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100vh;
-    background-color:#f1f1eb;
-    transition: 1s;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color:#2274A5;
+  transition: 1s;
 }
 
 
 /* logo text position */
 .logo-header {
-    position: absolute;
-    top: 40%;
-    left: 45%;
-    color:#df4f59;
+  position: absolute;
+  top: 40%;
+  left: 43%;
+  background-color:transparent;
+  border:none;
 }
 
-.logo {
-    position: relative;
-    display: inline-block;
-    bottom: -20px;
-    opacity: 0;
-    color:#df4f59;
+.welcomeLogo{
+background-color: transparent;
+border:none;
+font-size:60px;
+font-family: 'Pacifico', cursive;
 }
-
-
 /* logo text timer */
-.logo.active {
-    bottom: 0;
-    opacity: 1;
-    transition: ease-in-out 1s;
-}
 
-logo.fade {
-    bottom: 150px;
-    opacity: 0;
-    transition: ease-in-out 1s;
+.welcomeLogo.fade {
+  bottom: 150px;
+  opacity: 0;
+  transition: ease-in-out 1s;
 }
