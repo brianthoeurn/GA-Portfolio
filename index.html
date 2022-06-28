@@ -7,18 +7,15 @@
         <link rel="stylesheet" href="styles.css" />
         <script defer src="script.js"></script>
         <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Permanent+Marker&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@300&display=swap" rel="stylesheet">
         <title>Brian Thoeurn</title>
     </head>
-
     <header>
-        
-     </header>
-
+        <img src="/info/beach.jpg" id="topImg">
+    </header>
     <body>
-        <img src="/1.jpg" id="topImg">
             <!-- Logo stuff -->
         <div class="intro"> 
             <h1 class="logo-header">
@@ -26,50 +23,50 @@
             </h1>
         </div>
             <!-- Logo stuff -->
-
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <ul class="myNav">
-                <li><a href="#'">Home</a></li>
-                <li><a href="#'">Projects</a></li>
-                <li><a href="#'">Resume</a></li>
-                <li><a href="#'">Contact</a></li>
-            </ul>
-        </div>
-
-        <article>
-            <div id="main">
-                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-                <h4>About Me</h4>
-                <img src="/info/HTML.png" id="allLogo">
-                    <p id="myname" class="hide"> Hello my name is Brian Thoeurn!</p>
+        <nav>
+            <div id="mySidenav" class="sidenav">
+                <a id="closeBtn">&#9949;</a>
+                <ul class="myNav">
+                    <li><a href="#myname">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id="main">
+            <span id="openBtn">&#9776;</span>
+            <article>
+                <h4 class="bio">About Me</h4>
+                    <p id="myname" > Hello my name is Brian Thoeurn!</p>
                     <p id="myStatement"> I'm a software engineer from General Assembly, I was taught the power to destroy and create with a simple stroke of a key. I am well-versed in HTML, CSS and Javascript. If there is something that I don't know, I am more than willing to learn it as I am always looking for an opportunity to expand my knowledge.</p>
-                        <div class="container">
-                    
+                        <img src="/info/HTML.png" id="allLogo">
+                <h4 id="projects">Projects</h4>
+                    <div class="div_gamer_top">
+                        <img src="/info/gameOne.jpg" class="gamerOne"></a>
+                        <img src="/info/gameTwo.png" class="gamerTwo"></a>
+                        </div> 
+                        <div class="div_gamer_bot">
+                        <img src="/info/gameThree.png" class="gamerOne"></a>
+                        <img src="/info/gameFour.png" class="gamerTwo"></a>
                         </div>
-
-                <h4>Projects</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet earum vero, iure sapiente porro ipsa quibusdam, maiores aliquam nulla ut voluptatem commodi. Quis architecto aliquid, officiis commodi atque a minus!</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In aspernatur assumenda quidem. Vitae expedita quia fugiat quas perferendis nostrum architecto! Necessitatibus in totam a quibusdam, quaerat nostrum nihil dicta quas.</p>
-            
-                <h4>Resume</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In assumenda asperiores, sed corporis officiis itaque nobis distinctio neque veniam ab debitis sint accusantium dolorem, quos labore totam vero odit iusto.</p>
-            
-                <h4 class="contact">Contact Information</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, et cumque tempora est obcaecati facilis nostrum ex, ratione eius, repellendus fuga itaque quod reiciendis similique optio. Voluptatibus vel maxime dolores?</p>
+                <h4 id="contact">Looking to get in touch?</h4>
                         <!-- form will contain all input below -->   
                         <form class="contactMe">
-                        <label for="name">Your Name:</labfor>
-                        <input type="name" id="name">
-                        <label for="email">Your email:</label>
-                        <input type="email" id="email">
-                        <label for="message">Message</label>
-                        <input type="text" id="textbox">
-                        <button type="submit" form="contactMe" value="Submit">Submit</button>
+                            <label class="contactMe" for="name">Your name</labfor>
+                            <input type="text" class="input">
+                            <label class="contactMe" for="email">Your email</label>
+                            <input type="text" class="input">
+                            <label class="contactMe" for="message">Message</label>
+                            <input  type="text"id="msgInput">
+                            <button type="submit" form="contactMe" value="Submit" class="clickMe">Submit</button>
                         <!-- form attribute will specify form its assigned to -->
-                    </form> 
-                    
-            </div>
-        </article>
+                        </form> 
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/brian-thoeurn-63504a236/" target="_blank"><img src="/info/linkedin.png" id="gameTwo"></a>
+                    <a href="https://github.com/brianthoeurn" target="_blank"><img src="/info/github.png" id="gameThree"></a>
+                    <a href="https://docs.google.com/document/d/1TtsQ-utBoBlWORvm7cV0RUyYj9fbY8sGUH9ypGjxxks/edit" target="_blank"><img src="/info/resume.png" id="gameFour"></a>
+                </div>
+            </article>
+        </div>
     </body>
 </html>
