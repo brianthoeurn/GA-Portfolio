@@ -32,7 +32,7 @@ const myName = document.querySelector('#myname')
 const overLay = function () {
     logoBtn.classList.add('fade');
     setTimeout(()=>{
-        intro.style.top = '-100vh';
+        intro.style.top = '-150vh';
     },500)
     setTimeout(()=>{
       myName.classList.add('reveal')
