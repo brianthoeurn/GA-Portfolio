@@ -7,6 +7,9 @@
 ![wire](https://user-images.githubusercontent.com/107003360/176074882-40746e52-8540-4390-8c55-ee03ed110ea1.png)
  - Got a general idea on what I wanted to do but i decided to change my mind with my navigation
  
+# Tech used
+ - CSS / HTML / Javascript
+ 
 # Screenshot
 An embedded screenshot of the app
 ![Welcome](https://user-images.githubusercontent.com/107003360/176079958-23f7ee2d-3365-4424-a15e-910ab76659c6.png)
