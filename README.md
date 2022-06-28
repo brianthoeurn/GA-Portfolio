@@ -1,8 +1,6 @@
 # GA-Portfolio
 ![hi-everybody-simpsons](https://user-images.githubusercontent.com/107003360/176080442-447d05ee-c9ba-4adc-8805-3f73781e9847.gif)
 
-- This is offically my first project as a General Assembly student and I only plan to improve from here on out.
-
 # Wireframes
 ![wire](https://user-images.githubusercontent.com/107003360/176074882-40746e52-8540-4390-8c55-ee03ed110ea1.png)
  - Got a general idea on what I wanted to do but i decided to change my mind with my navigation
