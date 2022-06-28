@@ -30,7 +30,7 @@ An embedded screenshot of the app
   - There are times where I feel like I am repeating my code or thinking that there are ways to shorten it.
   
 # Link to live site
-
+https://brianthoeurn.github.io/GA-Portfolio/
 
 # Sources used
   - https://www.youtube.com/watch?v=2ak37WrbSDg
