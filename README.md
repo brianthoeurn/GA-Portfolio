@@ -11,6 +11,9 @@
 An embedded screenshot of the app
 ![Welcome](https://user-images.githubusercontent.com/107003360/176079958-23f7ee2d-3365-4424-a15e-910ab76659c6.png)
 
+![Welcome 2](https://user-images.githubusercontent.com/107003360/176090052-f66350cd-cf79-44f2-94e7-66383a2bfe13.png)
+
+
 # Your User stories – who are your users, what do they want and why?
   - As a recruiter I want to be able to see if this person is the right fit for our team.
   - All their work should be easily accessible, their coding is clean and easy to read.
